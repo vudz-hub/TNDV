@@ -1,0 +1,147 @@
+body{
+    background-color: gray;
+}
+
+#home{
+   border: 1px solid #000;
+   background-color:#fff ;
+   border-radius: 10px;
+   height: 50px;
+}
+
+body {
+    
+    margin: 0;
+    height: 100vh;
+    background-image: url('./hinh-nen-desktop-35.jpg'), url('./OIF.jpg');
+    background-size: cover,cover; /* Hình ảnh 1 phủ toàn màn hình, hình 2 kích thước cụ thể */
+    background-repeat: no-repeat, repeat; /* Hình ảnh 1 không lặp, hình ảnh 2 lặp */
+    background-position: center, bottom right; /* Căn hình 1 ở giữa, hình 2 ở góc dưới bên phải */
+}
+
+#ip1{
+    width:50vw ;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5vw;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#search{
+    
+    background-color:#fff ;
+    border-radius: 10px;
+    height: 45px;
+ }
+
+
+ .card {
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.card p {
+    margin: 0 15px 15px;
+    font-size: 16px;
+    color: #666;
+}
+
+.card button {
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+
+.all-card{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10vh;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.card-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+
+
+.card-3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+
+#havongquay{
+    background-color:blueviolet ;
+ 
+}
+
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+}
+.form-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-container button:hover {
+    background-color: #45a049;
+}
